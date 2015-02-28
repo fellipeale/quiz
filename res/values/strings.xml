@@ -40,6 +40,7 @@
     <string name="ranking.result_reset_success">Pontuações apagadas!</string>
     <string name="about.description">Jogo criado por Fellipe Alexandre para a aula de Desenvolvimento de Aplicativos Móveis, no curso de Engenharia de Software da UFPR.</string>
 
+    
     <string-array name="menu_values">
         <item>Novo Jogo</item>
         <item>Pontuações</item>
