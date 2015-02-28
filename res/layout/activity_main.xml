@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ivQuiz"
+        android:layout_width="@dimen/main.image.quiz_image_width"
+        android:layout_height="@dimen/main.image.quiz_image_height"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/main.image.quiz_image_description" />
+
+    <ListView
+        android:id="@+id/lvMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/menu_values"
+        android:gravity="center" />
+
+</LinearLayout>

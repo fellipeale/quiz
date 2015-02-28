@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="general.text_color">#000000</color>
+    <color name="general.light_text_color">#ffffff</color>
+    <color name="game.right_answer">#00ff00</color>
+    <color name="game.wrong_answer">#ff0000</color>
+
+    <dimen name="general.text_size">20sp</dimen>
+    <dimen name="main.image.quiz_image_height">230dp</dimen>
+    <dimen name="main.image.quiz_image_width">230dp</dimen>
+    <dimen name="game.text_question_size">25sp</dimen>
+
+    <string name="app_name">Quiz</string>
+    
+    <string name="general.yes">Sim</string>
+    <string name="general.no">Não</string>
+    <string name="general.save">Salvar</string>
+    <string name="general.reset">Apagar</string>
+    <string name="general.cancel">Cancelar</string>
+    <string name="main.image.quiz_image_description">Imagem</string>
+    <string name="main.exit_message">Deseja sair do jogo?</string>
+    <string name="game.question_label">Questão</string>
+    <string name="game.answer_label">Resposta</string>
+    <string name="game.finished_label">Jogo completo!</string>
+    <string name="game.result_message">Você fez {0} pontos.</string>
+    <string name="game.result_save_message">Insira seu nome para salvar a pontuação:</string>
+    <string name="game.result_saved_success">Pontuação salva!</string>
+    <string name="game.exit_message">Deseja ir para o menu principal?</string>
+    <string name="game.ws_error_message">Não foi possível carregar as perguntas, por favor tente novamente mais tarde.</string>
+    <string name="ranking.best_scores">Melhores pontuações</string>
+    <string name="ranking.empty_scores">Nenhuma pontuação encontrada</string>
+    <string name="ranking.reset_scores">Apagar pontuações</string>
+    <string name="ranking.restart_game">Reiniciar jogo</string>
+    <string name="ranking.button">Botão</string>
+    <string name="ranking.name">Nome</string>
+    <string name="ranking.date">Data</string>
+    <string name="ranking.score">Pontuação</string>
+    <string name="ranking.reset_message">Deseja apagar todas as pontuações?</string>
+    <string name="ranking.result_reset_success">Pontuações apagadas!</string>
+    <string name="about.description">Jogo criado por Fellipe Alexandre para a aula de Desenvolvimento de Aplicativos Móveis, no curso de Engenharia de Software da UFPR.</string>
+
+    <string-array name="menu_values">
+        <item>Novo Jogo</item>
+        <item>Pontuações</item>
+        <item>Sobre</item>
+    </string-array>
+
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_ranking">Ranking</string>
+    <string name="title_activity_about">About</string>
+
+</resources>

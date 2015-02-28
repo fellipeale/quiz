@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actGame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/game.question_label"
+        android:textColor="@color/general.text_color"
+        android:textSize="@dimen/game.text_question_size" />
+
+    <Button
+        android:id="@+id/btAnswer1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/game.answer_label"
+        android:textColor="@color/general.text_color"
+        android:textSize="@dimen/general.text_size" />
+
+    <Button
+        android:id="@+id/btAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/game.answer_label"
+        android:textColor="@color/general.text_color"
+        android:textSize="@dimen/general.text_size" />
+
+    <Button
+        android:id="@+id/btAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/game.answer_label"
+        android:textColor="@color/general.text_color"
+        android:textSize="@dimen/general.text_size" />
+
+    <Button
+        android:id="@+id/btAnswer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/game.answer_label"
+        android:textColor="@color/general.text_color"
+        android:textSize="@dimen/general.text_size" />
+
+</LinearLayout>

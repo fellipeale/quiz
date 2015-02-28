@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actAbout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/general.text_color"
+        android:textSize="@dimen/game.text_question_size"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvSobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about.description"
+        android:textColor="@color/general.text_color"
+        android:textSize="@dimen/general.text_size"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center" />
+    
+</LinearLayout>
